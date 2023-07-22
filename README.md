@@ -68,6 +68,17 @@ Disable this behaviour by setting HOMEBREW_NO_INSTALL_CLEANUP.
 Hide these hints with HOMEBREW_NO_ENV_HINTS (see `man brew`).
 ```
 
+- 이걸로 해결
+
+```
+brew install postgresql
+an error message appears
+run createdb (because macs don't create username databases after installing PostgreSQL)
+execute psql to connect successfully.
+```
+
+https://stackoverflow.com/questions/70908116/psql-error-connection-to-server-on-socket-tmp-s-pgsql-5432-failed-fatal
+
 - pgsql 잘 실행 안되서 ㅠㅠ
 
 ```
