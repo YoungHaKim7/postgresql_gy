@@ -1,5 +1,8 @@
 # postgresql_gy
 
+# Learn PostgreSQL Tutorial - Full Course for Beginners
+https://youtu.be/qw--VYLpxG4
+
 # Postgresql 설명서
 https://www.postgresql.kr/docs/9.4/runtime.html
 
