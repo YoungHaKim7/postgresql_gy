@@ -1,5 +1,19 @@
 # postgresql_gy
 
+# macOS postgresql 실행
+
+```
+LC_ALL="C" /opt/homebrew/opt/postgresql@15/bin/postgres -D /opt/homebrew/var/postgresql@15
+
+// or
+brew services start postgresql@15
+
+// list 확인
+brew services list
+```
+
+<hr>
+
 # Learn PostgreSQL Tutorial - Full Course for Beginners
 https://youtu.be/qw--VYLpxG4
 
