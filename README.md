@@ -12,7 +12,7 @@ brew services start postgresql@15
 brew services list
 ```
 
--psql
+- psql
 
 ```
 /opt/homebrew/Cellar/postgresql@14/14.8_2/bin/psql
