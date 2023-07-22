@@ -4,6 +4,7 @@
 https://youtu.be/qw--VYLpxG4
 
 # Postgresql 설명서
+- 15 version https://www.postgresql.org/docs/15/app-initdb.html
 https://www.postgresql.kr/docs/9.4/runtime.html
 
 # postgresql - log 확인방법
