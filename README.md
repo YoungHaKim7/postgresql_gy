@@ -18,6 +18,21 @@ brew services list
 /opt/homebrew/Cellar/postgresql@14/14.8_2/bin/psql
 ```
 
+-
+```
+/opt/homebrew/Cellar/postgresql@14/14.8_2/bin/
+
+$ ls
+
+clusterdb         oid2name          pg_ctl            pg_restore        pgbench
+createdb          pg_amcheck        pg_dump           pg_rewind         postgres
+createuser        pg_archivecleanup pg_dumpall        pg_test_fsync     postmaster
+dropdb            pg_basebackup     pg_isready        pg_test_timing    psql
+dropuser          pg_checksums      pg_receivewal     pg_upgrade        reindexdb
+ecpg              pg_config         pg_recvlogical    pg_verifybackup   vacuumdb
+initdb            pg_controldata    pg_resetwal       pg_waldump        vacuumlo
+```
+
 <hr>
 
 # Learn PostgreSQL Tutorial - Full Course for Beginners
