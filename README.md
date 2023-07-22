@@ -1,5 +1,7 @@
 # postgresql_gy
 
+# Postgresql 설명서
+https://www.postgresql.kr/docs/9.4/runtime.html
 
 # postgresql - log 확인방법
 
