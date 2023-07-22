@@ -68,6 +68,16 @@ Disable this behaviour by setting HOMEBREW_NO_INSTALL_CLEANUP.
 Hide these hints with HOMEBREW_NO_ENV_HINTS (see `man brew`).
 ```
 
+- pgsql 잘 실행 안되서 ㅠㅠ
+
+```
+brew uninstall postgresql
+brew install postgresql@15
+brew services start postgresql@15
+brew link postgresql@15 --force
+```
+
+https://stackoverflow.com/questions/69754628/psql-error-connection-to-server-on-socket-tmp-s-pgsql-5432-failed-no-such
 
 <hr>
 
