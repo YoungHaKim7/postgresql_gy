@@ -18,9 +18,10 @@ brew services list
 /opt/homebrew/Cellar/postgresql@14/14.8_2/bin/psql
 ```
 
--
+- /opt/homebrew/Cellar/postgresql@14/14.8_2/bin/
+
 ```
-/opt/homebrew/Cellar/postgresql@14/14.8_2/bin/
+
 
 $ ls
 
