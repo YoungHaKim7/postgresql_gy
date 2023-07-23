@@ -1,5 +1,15 @@
 # postgresql_gy
 
+- postgre 명령어 정리
+```
+\l   list 확인
+\q   quit 종료
+```
+
+https://www.devkuma.com/docs/postgresql/%EC%8A%A4%ED%82%A4%EB%A7%88-schema/
+
+<hr>
+
 # macOS postgresql 실행
 
 ```
