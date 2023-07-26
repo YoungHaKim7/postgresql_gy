@@ -165,3 +165,12 @@ To restart postgresql@14 after an upgrade:
 Or, if you don't want/need a background service you can just run:
   /opt/homebrew/opt/postgresql@14/bin/postgres -D /opt/homebrew/var/postgres
 ```
+
+# Tutorial
+
+https://news.hada.io/topic?id=9864&utm_source=weekly&utm_medium=email&utm_campaign=202330
+
+PostgreSQL 14의 내부구조(스냅샷, 버퍼캐시, WAL, 잠금, 질의 실행, 각종 색인)에 대해 소개한 무료 이북의 최종본이 지난 3월 즈음에 나왔길래 뒤늦게나마 소개해 봅니다.
+
+PDF 다운로드 : https://edu.postgrespro.com/postgresql_internals-14_en.pdf
+1년 전 파트1 공개 소식 : https://news.hada.io/topic?id=6982
