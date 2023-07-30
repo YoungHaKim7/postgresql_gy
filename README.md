@@ -30,6 +30,22 @@ https://stackoverflow.com/questions/69676009/psql-error-connection-to-server-on-
 
 https://www.devkuma.com/docs/postgresql/%EC%8A%A4%ED%82%A4%EB%A7%88-schema/
 
+# Linux (Mint Linux install)
+
+```bash
+sudo sh -c 'echo "deb http://apt.postgresql.org/pub/repos/apt $(lsb_release -cs)-pgdg main" > /etc/apt/sources.list.d/pgdg.list'
+wget --quiet -O - https://www.postgresql.org/media/keys/ACCC4CF8.asc | sudo apt-key add -
+sudo apt-get update
+sudo apt-get -y install postgresql
+```
+
+
+https://www.postgresql.org/download/linux/debian/
+
+<hr>
+
+<hr>
+
 <hr>
 
 # macOS postgresql 실행
