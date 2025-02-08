@@ -1,3 +1,8 @@
+# 여기에도 정리중..
+- https://github.com/YoungHaKim7/SQL_Training_PostgreSQL
+
+<hr />
+
 # ```psql -U postgres``` 리눅스에서 에러나서 ```sudo -i -u postgres```로 들어감
 
 ```bash
