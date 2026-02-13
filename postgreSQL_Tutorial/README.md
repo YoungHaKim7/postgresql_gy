@@ -25,3 +25,63 @@ https://youtu.be/p3qvj9hO_Bo?si=UaCUFlXNGmYVrbZ-
 
 # PostgreSQL 기본 명령어
 
+- local에서 실행
+  - https://stackoverflow.com/questions/31645550/postgresql-why-psql-cant-connect-to-server
+
+```bash
+
+$ sudo gpasswd -a postgres ssl-cert
+Adding user postgres to group ssl-cert
+
+
+$ sudo chown root:ssl-cert  /etc/ssl/private/ssl-cert-snakeoil.key
+
+
+$ sudo chmod 740 /etc/ssl/private/ssl-cert-snakeoil.key
+
+
+$ sudo service postgresql restart
+ * Restarting PostgreSQL 16 database server                                                                                                    [ OK ]
+
+
+$ psql
+psql: error: connection to server on socket "/var/run/postgresql/.s.PGSQL.5432" failed: FATAL:  role "y" does not exist
+
+
+$ sudo systemctl status postgresql
+System has not been booted with systemd as init system (PID 1). Can't operate.
+Failed to connect to bus: Host is down
+
+
+$ pg_lsclusters
+Ver Cluster Port Status Owner    Data directory              Log file
+16  main    5432 online postgres /var/lib/postgresql/16/main /var/log/postgresql/postgresql-16-main.log
+
+
+$ sudo pg_ctlcluster 16 main start
+Cluster is already running.
+
+
+$ sudo service postgresql start
+ * Starting PostgreSQL 16 database server                                                                                                      [ OK ]
+
+$ sudo su - postgres
+Welcome to Ubuntu 24.04.4 LTS (GNU/Linux 4.4.0-18362-Microsoft x86_64)
+
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/pro
+
+ System information as of Fri Feb 13 12:41:45 KST 2026
+
+  System load:  0.52                Processes:             18
+  Usage of /:   67.1% of 237.84GB   Users logged in:       0
+  Memory usage: 85%                 IPv4 address for eth1: 192.168.219.72
+  Swap usage:   12%
+
+This message is shown once a day. To disable it please create the
+/var/lib/postgresql/.hushlogin file.
+postgres@DESKTOP-7FCSUVF:~$ psql
+psql (16.11 (Ubuntu 16.11-0ubuntu0.24.04.1))
+Type "help" for help.
+```
