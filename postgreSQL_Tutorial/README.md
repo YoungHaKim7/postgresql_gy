@@ -1,3 +1,9 @@
+# postgres-cheatsheet
+
+- https://gist.github.com/Kartones/dd3ff5ec5ea238d4c546
+
+<hr />
+
 # Learn PostgreSQL Tutorial - Full Course for Beginners
 
 https://youtu.be/qw--VYLpxG4
