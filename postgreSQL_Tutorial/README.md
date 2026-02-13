@@ -123,3 +123,7 @@ postgres@DESKTOP-7FCSUVF:~$ psql -h localhost -p 5432 -U postgres -d postgres
 ```
 
 - [영상  Postgres는 데이터베이스가 아닙니다. | DevOps Toolbox](https://youtu.be/b7eXdUOzUTM?si=UOCYuVzgPzkLjTN7)
+
+# localhost 접근방법(GUI도 있음)
+
+- https://stackoverflow.com/questions/24917832/how-to-connect-postgres-to-localhost-server-using-pgadmin-on-ubuntu
