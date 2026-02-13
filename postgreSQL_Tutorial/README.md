@@ -85,3 +85,20 @@ postgres@DESKTOP-7FCSUVF:~$ psql
 psql (16.11 (Ubuntu 16.11-0ubuntu0.24.04.1))
 Type "help" for help.
 ```
+
+# pstgres서버 잘 돌아가는지(status) 확인
+
+```bash
+$ sudo service postgresql status
+16/main (port 5432): online
+
+
+$ sudo su - postgres
+
+# 2번 더 들어가야함. docker 같은 기분
+postgres@DESKTOP-7FCSUVF:~$ /l
+-bash: /l: No such file or directory
+
+# psql 진입
+postgres@DESKTOP-7FCSUVF:~$ psql
+```
