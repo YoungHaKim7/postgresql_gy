@@ -86,7 +86,7 @@ psql (16.11 (Ubuntu 16.11-0ubuntu0.24.04.1))
 Type "help" for help.
 ```
 
-# pstgres서버 잘 돌아가는지(status) 확인
+# postgres서버 잘 돌아가는지(status) 확인
 
 ```bash
 $ sudo service postgresql status
@@ -102,3 +102,24 @@ postgres@DESKTOP-7FCSUVF:~$ /l
 # psql 진입
 postgres@DESKTOP-7FCSUVF:~$ psql
 ```
+
+# postgres비번 설정
+- https://stackoverflow.com/questions/27107557/what-is-the-default-password-for-postgres
+
+```bash
+user:~$ sudo -i -u postgres
+postgres@user:~$ psql
+```
+
+- Execute this query in postgres shell:
+
+```bash
+postgres=# ALTER USER postgres PASSWORD 'mynewpassword';
+```
+
+- 비번 설정한거 잘됨.
+```bash
+postgres@DESKTOP-7FCSUVF:~$ psql -h localhost -p 5432 -U postgres -d postgres
+```
+
+- [영상  Postgres는 데이터베이스가 아닙니다. | DevOps Toolbox](https://youtu.be/b7eXdUOzUTM?si=UOCYuVzgPzkLjTN7)
