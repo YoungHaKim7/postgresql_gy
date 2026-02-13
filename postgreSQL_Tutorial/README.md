@@ -133,3 +133,12 @@ postgres@DESKTOP-7FCSUVF:~$ psql -h localhost -p 5432 -U postgres -d postgres
 # localhost 접근방법(GUI도 있음)
 
 - https://stackoverflow.com/questions/24917832/how-to-connect-postgres-to-localhost-server-using-pgadmin-on-ubuntu
+
+# macOS postgres 시작
+
+```bash
+# Open a new Terminal window to ensure your environment variables are correctly loaded.
+# Connect to the default database named postgres by running:
+$ psql postgres
+# You are now in the psql prompt and can execute SQL commands. 
+```
